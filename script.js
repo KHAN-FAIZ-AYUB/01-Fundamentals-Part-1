@@ -18,14 +18,14 @@ console.log(48 + 10 + 18);
 */
 
 // ************************   DATA TYPES  ************************
-
+/*
 let javaSriptIsFun = true;
 console.log(javaSriptIsFun);
 
-// console.log(typeof true);
-// console.log(typeof "faiz");
-// console.log(typeof 23);
-// console.log(typeof " ");
+console.log(typeof true);
+console.log(typeof "faiz");
+console.log(typeof 23);
+console.log(typeof " ");
 
 javaSriptIsFun = "YESS!!";
 console.log(typeof javaSriptIsFun);
@@ -38,3 +38,21 @@ year = 1998;
 console.log(typeof year);
 
 console.log(typeof null);
+*/
+
+// ************************   LET , CONST & VAR  **********************
+/*
+let age = 25;
+age = 27;                   // (LET CAN BE MUTATED)
+console.log(age);
+
+const birthYear=1998;
+// birthYear=2001;          (CONST CAN NOT B MUTATED)
+console.log(birthYear);
+
+var job='Programmer';
+job='Senior Developer';      // (VAR CAN BE MUTATED)
+console.log(job);
+*/
+
+// ************************  BASIC OPERATORS  **********************
