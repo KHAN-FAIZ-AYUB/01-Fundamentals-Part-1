@@ -102,7 +102,7 @@ const average=(ageFaiz + ageFaisal)/2;
 console.log(ageFaiz, ageFaisal, average);
 */
 
-// ************************  CHALLENGE  **********************
+// ************************  CHALLENGE #01  **********************
 /*
 // const massMark = 78;
 // const heightMark = 1.69;
@@ -121,7 +121,7 @@ const markHigherBMI = BMIMark > BMIJohn;
 console.log(BMIMark, BMIJohn, markHigherBMI);
 */
 
-// ************************  STRINGS & TEMPLATE  **********************
+// ************************  STRINGS & TEMPLATE LITERAL  **********************
 /*
 const firstName='Faiz';
 const job='Programmer';
@@ -153,7 +153,28 @@ if (birthYear <= 2000) {
 console.log(century);
 */
 
-// ************************  **********************
+// ************************ CHALLENGE #02  **********************
+/*
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
 
+// const massMark = 95;
+// const heightMark = 1.88;
+// const massJohn = 85;
+// const heightJohn = 1.76;
 
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+const markHigherBMI = BMIMark > BMIJohn;
+console.log(BMIMark, BMIJohn);
+if(BMIMark>BMIJohn){
+    console.log(`${BMIMark} Mark BMI is higher`);
+    }
+    else{
+        console.log(`${BMIJohn} John BMI is higher`)
+    }
+*/
 
+// ************************ CHALLENGE #02  **********************
