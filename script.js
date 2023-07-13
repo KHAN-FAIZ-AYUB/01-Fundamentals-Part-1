@@ -56,8 +56,8 @@ console.log(job);
 */
 
 // ************************  BASIC OPERATORS  **********************
-
-// MATH OPERATORS
+/*
+//***MATH OPERATORS***
 const now = 2037;
 const ageFaiz = now - 1998;
 const ageFaisal = now - 2018;
@@ -69,7 +69,7 @@ const firstName = "Faiz";
 const lastName = "Khan";
 console.log(firstName + " " + lastName + ".");
 
-// ASSIGNMENT OPERATORS
+// ***ASSIGNMENT OPERATORS***
 let x = 10 + 5;
 x += 10;
 x *= 4;
@@ -78,9 +78,25 @@ x--;
 x--;
 console.log(x);
 
-//COMPARISION OPERATORS
+//***COMPARISION OPERATORS***
 console.log(ageFaiz > ageFaisal);
 console.log(ageFaisal >= 18);
 
 const isFullAge = ageFaisal >= 18;
 console.log(now - ageFaiz > now - ageFaisal);
+*/
+
+// ************************    **********************
+
+const now = 2037;
+const ageFaiz = now - 1998;
+const ageFaisal = now - 2018;
+
+console.log(now - ageFaiz > now - ageFaisal);
+
+let x, y;
+x=y=25-10-5;
+console.log(x,y);
+
+const average=(ageFaiz + ageFaisal)/2;
+console.log(ageFaiz, ageFaisal, average);
