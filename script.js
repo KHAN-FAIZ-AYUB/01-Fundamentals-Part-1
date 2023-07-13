@@ -121,4 +121,14 @@ const markHigherBMI = BMIMark > BMIJohn;
 console.log(BMIMark, BMIJohn, markHigherBMI);
 */
 
-// ************************  CHALLENGE  **********************
+// ************************  STRINGS & TEMPLATE  **********************
+
+const firstName='Faiz';
+const job='Programmer';
+const birthYear = 1998;
+const year=2037;
+const age=year-birthYear;
+
+const faizNew=`I'm ${firstName} a ${age} years old ${job}.`;
+console.log(faizNew);
+
