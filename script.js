@@ -86,8 +86,8 @@ const isFullAge = ageFaisal >= 18;
 console.log(now - ageFaiz > now - ageFaisal);
 */
 
-// ************************    **********************
-
+// ************************  PREFRENCE  **********************
+/*
 const now = 2037;
 const ageFaiz = now - 1998;
 const ageFaisal = now - 2018;
@@ -100,3 +100,25 @@ console.log(x,y);
 
 const average=(ageFaiz + ageFaisal)/2;
 console.log(ageFaiz, ageFaisal, average);
+*/
+
+// ************************  CHALLENGE  **********************
+/*
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
+
+const massMark = 95;
+const heightMark = 1.88;
+const massJohn = 85;
+const heightJohn = 1.76;
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+const markHigherBMI = BMIMark > BMIJohn;
+
+console.log(BMIMark, BMIJohn, markHigherBMI);
+*/
+
+// ************************  CHALLENGE  **********************
