@@ -201,4 +201,27 @@ n = n - 1;
 console.log(n);
 */
 
-// *********************  *********************
+// *********************TRUTHY & FALSY *********************
+/*
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("faiz"));
+console.log(Boolean({}));
+console.log(Boolean(""));
+
+const money = 100;
+if (money) {
+  console.log(`you have $${money} Dont spend it all`);
+} else {
+  console.log("get a job and earn money");
+}
+
+let height = 5.8;
+if (height) {
+  console.log("YAA Height is defined");
+} else {
+  console.log("Please enter your height");
+}
+*/
+
+// *********************  EQUALITY OPERATOR  *********************
