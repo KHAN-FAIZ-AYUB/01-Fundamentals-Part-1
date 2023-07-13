@@ -56,3 +56,31 @@ console.log(job);
 */
 
 // ************************  BASIC OPERATORS  **********************
+
+// MATH OPERATORS
+const now = 2037;
+const ageFaiz = now - 1998;
+const ageFaisal = now - 2018;
+console.log(ageFaiz, ageFaisal);
+
+console.log(ageFaiz * 2, ageFaisal / 10, 2 ** 3);
+
+const firstName = "Faiz";
+const lastName = "Khan";
+console.log(firstName + " " + lastName + ".");
+
+// ASSIGNMENT OPERATORS
+let x = 10 + 5;
+x += 10;
+x *= 4;
+x++;
+x--;
+x--;
+console.log(x);
+
+//COMPARISION OPERATORS
+console.log(ageFaiz > ageFaisal);
+console.log(ageFaisal >= 18);
+
+const isFullAge = ageFaisal >= 18;
+console.log(now - ageFaiz > now - ageFaisal);
