@@ -225,3 +225,31 @@ if (height) {
 */
 
 // *********************  EQUALITY OPERATOR  *********************
+/*
+const age = "18";
+if (age === 18) console.log("You just became an adult (STRICT)");
+
+if (age == 18) console.log("You just became an adult (LOOSE)");
+
+const favourite = Number(prompt("Whats your favourite number?"));
+console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite === 23) {
+  console.log("Cool 23 is amaizing number");
+} else if (favourite === 7) {
+  console.log("Cool 7 is an amazing number");
+} else if (favourite === 9) {
+  console.log("Cool 9 is an amazing number");
+} else {
+  console.log("You have entered a wrong number");
+}
+
+if (favourite !== 23) {
+  console.log("you have entered a wrong number plz enter 23 or 7 or 9");
+}
+*/
+
+// *********************  EQUALITY OPERATOR  *********************
+
+
