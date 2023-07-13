@@ -122,7 +122,7 @@ console.log(BMIMark, BMIJohn, markHigherBMI);
 */
 
 // ************************  STRINGS & TEMPLATE  **********************
-
+/*
 const firstName='Faiz';
 const job='Programmer';
 const birthYear = 1998;
@@ -131,4 +131,29 @@ const age=year-birthYear;
 
 const faizNew=`I'm ${firstName} a ${age} years old ${job}.`;
 console.log(faizNew);
+*/
+
+// ************************  IF ELSE  **********************
+/*
+const age = 19;
+
+if (age >= 18) {
+  console.log(`Sarah is ${age} and she can start driving`);
+} else {
+  console.log(`Sarah is ${age} and she can not start driving`);
+}
+
+const birthYear = 1998;
+let century;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
+*/
+
+// ************************  **********************
+
+
 
