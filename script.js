@@ -275,7 +275,40 @@ if (hasDrivingLicensse && hasGoodVision && !isTired) {
   }
   */
 
-  // *********************  CHALLENGE #03  *********************
+// *********************  CHALLENGE #03  *********************
+/*
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const scoreKoalas = (88 + 91 + 110) / 3;
+// console.log(scoreDolphins, scoreKoalas);
 
+// if (scoreDolphins > scoreKoalas) {
+//   console.log("Dolphins win the trophy🏆");
+// } else if (scoreKoalas > scoreDolphins) {
+//   console.log("Koalas win the trophy🏆");
+// } else if (scoreDolphins === scoreKoalas) {
+//       console.log('Koalas and Dolphins both win the trophy🏆');
+// }
+//  else{
+//     console.log('Koalas and Dolphins both loose the trophy🏆');
+// }
 
+const scoreDolphins = (97 + 112 + 80) / 3;
+const scoreKoalas = (109 + 95 + 50) / 3;
+console.log(scoreDolphins, scoreKoalas);
 
+if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
+  console.log("Dolphins win the trophy🏆");
+} else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
+  console.log("Koalas win the trophy🏆");
+} else if (
+  scoreDolphins === scoreKoalas &&
+  scoreDolphins >= 100 &&
+  scoreKoalas >= 100
+) {
+  console.log("Koalas and Dolphins both win the trophy🏆");
+} else {
+  console.log("Koalas and Dolphins both loose the trophy🏆");
+}
+*/
+
+// *********************  SWITCH STATEMENT  *********************
