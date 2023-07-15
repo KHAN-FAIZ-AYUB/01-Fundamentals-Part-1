@@ -312,3 +312,50 @@ if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
 */
 
 // *********************  SWITCH STATEMENT  *********************
+/*
+const newDay = prompt("Pleas enter a day");
+
+switch (newDay) {
+  case "monday":
+    console.log("Plan course structure");
+    console.log("Go to cosing meetup");
+    break;
+  case "tuesday":
+    console.log("Prepare theory video");
+    break;
+  case "wednesday":
+  case "thursday":
+    console.log("write code example");
+    break;
+  case "friday":
+    console.log("record videos");
+    break;
+  case "saturday":
+  case "sunday":
+    console.log("Solo ride");
+    break;
+  default:
+    console.log("you have entered a wrong choice");
+}
+
+// #############################################################
+
+let day = prompt("Pleas enter a day");
+
+if (day === "monday") {
+  console.log("Plan course structure");
+  console.log("Go to cosing meetup");
+} else if (day === "tuesday") {
+  console.log("Prepare theory video");
+} else if (day === "wednesday" || day === "thursday") {
+  console.log("write code examples");
+} else if (day === "friday") {
+  console.log("record videos");
+} else if (day === "saturday" || day === "sunday") {
+  console.log("Solo ride");
+} else {
+  console.log("you have entered a wrong choice");
+}
+*/
+
+// *********************  STATEMENT  & EXPRESIONS *********************
