@@ -250,6 +250,32 @@ if (favourite !== 23) {
 }
 */
 
-// *********************  BOOLEAN LOGIC  *********************
+// *********************  LOGICAL OPERTORS  *********************
+/*
+const hasDrivingLicensse = true;
+const hasGoodVision = false;
+
+console.log(hasDrivingLicensse && hasGoodVision);
+console.log(hasDrivingLicensse || hasGoodVision);
+console.log(!hasDrivingLicensse);
+
+// if (hasDrivingLicensse && hasGoodVision) {
+//   console.log("Sarah is able to drive");
+// } else {
+//   console.log("Someone else should drive...");
+// }
+
+const isTired =true;
+console.log(hasDrivingLicensse && hasGoodVision && isTired);
+
+if (hasDrivingLicensse && hasGoodVision && !isTired) {
+    console.log("Sarah is able to drive");
+  } else {
+    console.log("Someone else should drive...");
+  }
+  */
+
+  // *********************  CHALLENGE #03  *********************
+
 
 
